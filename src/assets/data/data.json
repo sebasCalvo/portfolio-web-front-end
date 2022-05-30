@@ -1,0 +1,23 @@
+{
+    "name": "Sebastian Calvo",
+    "profesion": "Software developer",
+    "selfie": "/assets/selfieredonda.png",
+    "educacion": [
+        {
+          "establecimiento": "EETN1",
+          "localidad": "Escobar",
+          "inicio": "2001",
+          "final": "2005"
+        },
+        {
+          "establecimiento": "Saint Thomas",
+          "localidad": "San Juan",
+          "inicio": "2010",
+          "final": "2012"
+        }
+    ],
+    "numeroPreferido": 7,
+    "llave5": null,
+    "favAmigos": ["Kolade", "Nithya", "Dammy", "Jack"],
+    "favJugadores": {"uno": "Kante", "dos": "Hazard", "tres": "Didier"}
+  }

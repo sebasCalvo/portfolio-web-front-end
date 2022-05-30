@@ -6,14 +6,11 @@
                 <div class="row"> 
                     <div class="col-md-12 justify-text-center align-self-center">
                         <h4>Education</h4>
-                        <ul>
+                        <ul *ngFor="let educacion of educacionLista">
                             <li class="py-5">
-                                <h5>A study</h5>
+                                <h5>{{educacion.establecimiento}}</h5>
+                                <h6>{{educacion.localidad}}</h6>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis assumenda maxime velit deserunt mollitia dicta a libero voluptate. Voluptate, maiores. Iure commodi vitae, officiis tenetur nulla quae qui reiciendis? Laborum.</p>
-                            </li>
-                            <li>
-                                <h5>Another study</h5>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque velit molestiae libero fuga, atque aut accusamus beatae vitae quam incidunt facilis sequi alias itaque et quod maiores! Harum, vitae. Veniam!</p>
                             </li>
                         </ul>    
                     </div>
